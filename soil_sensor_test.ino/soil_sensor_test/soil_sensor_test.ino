@@ -2,8 +2,8 @@
 #include "SHT1x.h"
 
 // Sensor pins
-const uint8_t dataPin  =  6;
-const uint8_t clockPin =  7;
+#define dataPin  D6
+#define clockPin D7
 
 // Variables for the temperature & humidity sensor
 float temperature;
